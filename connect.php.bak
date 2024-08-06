@@ -1,0 +1,11 @@
+<?php
+$con=new mysqli('1306','root','','BBMS');
+
+if(!$con){
+    die(mysqli_error($con));
+
+
+}
+
+
+?>
